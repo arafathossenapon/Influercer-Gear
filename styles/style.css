@@ -219,6 +219,43 @@ body {
     border: none;
 }
 
+/* footer styles */
+footer{
+    background-color: #0A0826;
+    padding: 50px 0;
+}
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.footer-container h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+.footer-container p{
+    font-size: 0.87rem;
+    /* font-weight: bold; */
+    /* line-height: 24px; */
+    color: #D9DBE1;
+    margin-bottom: 5px;
+
+    
+}
+
+.social-icons{
+    margin-top: 20px;
+}
+
+.social-icons i{
+    font-size: 18px;
+    margin: 0 10px;
+    
+}
 
 @media screen and (max-width:576px) {
     .navbar {
